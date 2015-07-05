@@ -1,0 +1,33 @@
+<div class="service">
+  <div class="row service-details">
+    <div class="col-xs-12">
+      <h3>{{type}} @ {{{rate.currency}}}{{rate.value}} per {{rate.unit}}</h3>
+    </div>
+  </div>
+
+  <div class="service-worked">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Project</th>
+          <th>Worked</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#worked}}
+          <tr>
+            <td>{{date}}</td>
+            <td>{{project}}</td>
+            <td>{{measurement}}</td>
+          </tr>
+        {{/worked}}
+        <tr>
+          <td></td>
+          <td>Total:</td>
+          <td>{{billable}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+{
+  "name": "invoicer-html-template",
+  "version": "1.0.0",
+  "description": "Default html template",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js > outfile.html; open outfile.html"
+  },
+  "author": "Brian Mullan <bmullan91@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hogan": "^1.0.2"
+  }
+}

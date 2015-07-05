@@ -1,0 +1,28 @@
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+body {
+  padding: 10px;
+}
+
+.company {
+  padding: 10px; 
+  background-color: #eee;
+}
+
+.company h2 {
+  margin-top: 0;
+}

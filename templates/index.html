@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  </head>
+  <body>
+
+    <div class="container">
+      {{#invoice}}
+        {{> invoice}}
+      {{/invoice}}
+    </div>
+
+    <div class="companys">
+
+      <div class="container">
+        <h3>From:</h3>
+        {{#from}}
+          {{> companyDetails}}
+        {{/from}}
+      </div>
+
+      <div class="container">
+        <h3>To:</h3>
+        {{#to}}
+          {{> companyDetails}}
+        {{/to}}
+      </div>      
+    </div>
+    
+    <div class="container">
+      <div class="services">
+        <h2>Services</h2>
+        {{#services}}
+          {{> service}}
+        {{/services}}
+      </div>
+    </div>
+
+  </body>
+</html>
