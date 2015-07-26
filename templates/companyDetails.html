@@ -14,39 +14,39 @@
       <h3>Bank Details</h3>
 
       <div class="row">
-        <div class="col-xs-3">Bank Name:</div>
-        <div class="col-xs-9">{{name}}</div>
+        <div class="col-xs-4">Bank Name:</div>
+        <div class="col-xs-8">{{name}}</div>
       </div>
 
       <div class="row">
-        <div class="col-xs-3">Account Number:</div>
-        <div class="col-xs-9">{{ac}}</div>
+        <div class="col-xs-4">Account #:</div>
+        <div class="col-xs-8">{{ac}}</div>
       </div>
 
       <div class="row">
-        <div class="col-xs-3">Sort-code:</div>
-        <div class="col-xs-9">{{sc}}</div>
+        <div class="col-xs-4">Sort-code:</div>
+        <div class="col-xs-8">{{sc}}</div>
       </div>
 
       {{#iban}}
         <div class="row">
-          <div class="col-xs-3">IBAN:</div>
-          <div class="col-xs-9">{{iban}}</div>
+          <div class="col-xs-4">IBAN:</div>
+          <div class="col-xs-8">{{iban}}</div>
         </div>
       {{/iban}}
 
       {{#swift}}
         <div class="row">
-          <div class="col-xs-3">Swift:</div>
-          <div class="col-xs-9">{{swift}}</div>
+          <div class="col-xs-4">Swift:</div>
+          <div class="col-xs-8">{{swift}}</div>
         </div>
       {{/swift}}
 
       <br>
       <div class="row">
-        <div class="col-xs-3">Address:</div>
+        <div class="col-xs-4">Address:</div>
 
-        <div class="col-xs-9">
+        <div class="col-xs-8">
           {{#address}}
             {{.}}<br>
           {{/address}}

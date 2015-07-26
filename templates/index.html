@@ -1,8 +1,8 @@
 <DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" type="text/css" href="./styles.css" media="all">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
   </head>
   <body>
@@ -16,14 +16,18 @@
     <div class="companys">
 
       <div class="container">
-        <h3>From:</h3>
+        <div class="underline">
+          <h3>From:</h3>
+        </div>
         {{#from}}
           {{> companyDetails}}
         {{/from}}
       </div>
 
       <div class="container">
-        <h3>To:</h3>
+        <div class="underline">
+          <h3>To:</h3>
+        </div>
         {{#to}}
           {{> companyDetails}}
         {{/to}}
@@ -31,8 +35,10 @@
     </div>
     
     <div class="container">
-      <div class="services">
+      <div class="underline">
         <h2>Services</h2>
+      </div>
+      <div class="services">
         {{#services}}
           {{> service}}
         {{/services}}
