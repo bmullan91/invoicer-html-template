@@ -1,7 +1,7 @@
 {
   "name": "invoicer-html-template",
-  "version": "1.0.0",
-  "description": "Default html template",
+  "version": "1.0.1",
+  "description": "Default html template for invoicer",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -10,6 +10,13 @@
   "scripts": {
     "test": "node test/test.js > outfile.html; open outfile.html"
   },
+  "keywords": [
+    "invoice",
+    "invoicer",
+    "invoicer-cli",
+    "invoices",
+    "expenses"
+  ],
   "author": "Brian Mullan <bmullan91@gmail.com>",
   "license": "MIT",
   "dependencies": {
