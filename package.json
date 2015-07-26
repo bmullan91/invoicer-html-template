@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Default html template",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmullan91/invoicer-html-template.git"
+  },
   "scripts": {
     "test": "node test/test.js > outfile.html; open outfile.html"
   },
