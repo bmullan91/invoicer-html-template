@@ -1,110 +1,100 @@
 module.exports = {
   "invoice": {
-    "number": "1234",
-    "date": "Sat, 04 Jul 2015 14:48:35 GMT",
-    "dueDate": "Thu, 30 Jul 2015 23:00:00 GMT",
+    "number": "26072015-001",
+    "date": "Sun Jul 26 2015",
+    "dueDate": "Mon Aug 31 2015",
     "totalDue": [
       {
-        "currency": "£",
-        "value": 2640
+        "currency": "\u00a3",
+        "value": 2160
       }
     ]
   },
   "from": {
-    "name": "My Super Company",
-    "number": "00112233",
+    "name": "My Company",
+    "number": "1234555",
     "address": [
-      "Number 1",
-      "Down the lane",
-      "Over the Bridge",
+      "1 House",
+      "Wee Street",
       "Wee Town",
+      "Wee Country",
       "Earth"
     ],
     "bankDetails": {
-      "name": "Big Bank",
+      "name": "My Bank",
       "address": [
-        "1 Wall Street",
-        "New York",
-        "USA",
-        " ",
-        " "
+        "1 Main Street",
+        "Big Street",
+        "Big City",
+        "Big Country",
+        "Earth"
       ],
-      "ac": "99999999999",
-      "sc": "11-22-33",
-      "iban": "BIGBANK9999999999112233",
-      "swift": "BIGBANK9999999999112233"
+      "ac": "123456",
+      "sc": "12-34-56",
+      "iban": "1234567-abc",
+      "swift": "1234567-abc"
     }
   },
   "to": {
     "name": "Client Company",
-    "number": "78659433",
+    "number": "1234",
     "address": [
-      "32 Grassy Lane",
-      "London",
-      "WQO 4R56",
-      "UK",
+      "1 Infinite Loop",
+      "Cupertino",
+      "California",
+      "United States",
       "Earth"
     ]
   },
   "services": [
     {
-      "type": "Software Development & Consulting",
+      "type": "Software Development",
       "rate": {
         "unit": "hour",
         "value": 30,
-        "currency": "£"
+        "currency": "\u00a3"
       },
       "worked": [
         {
-          "project": "cool project",
+          "project": "Cool Project",
           "measurement": 8,
-          "date": "Wed, 01 Jul 2015 23:00:00 GMT"
+          "date": "Wed Jul 01 2015"
         },
         {
-          "project": "cool project",
+          "project": "Cool Project",
           "measurement": 8,
-          "date": "Thu, 02 Jul 2015 23:00:00 GMT"
+          "date": "Thu Jul 02 2015"
         },
         {
-          "project": "cool project",
+          "project": "Cool Project",
           "measurement": 8,
-          "date": "Fri, 03 Jul 2015 23:00:00 GMT"
-        },
-        {
-          "project": "cool project",
-          "measurement": 8,
-          "date": "Mon, 06 Jul 2015 23:00:00 GMT"
-        },
-        {
-          "project": "cool project",
-          "measurement": 8,
-          "date": "Tue, 07 Jul 2015 23:00:00 GMT"
+          "date": "Fri Jul 03 2015"
         }
       ],
-      "billable": 1200
+      "billable": 720
     },
     {
-      "type": "Design & Architecture",
+      "type": "Consulting",
       "rate": {
         "unit": "hour",
         "value": 60,
-        "currency": "£"
+        "currency": "\u00a3"
       },
       "worked": [
         {
-          "project": "cool project",
+          "project": "Secret Project",
           "measurement": 8,
-          "date": "Wed, 08 Jul 2015 23:00:00 GMT"
+          "date": "Mon Jul 06 2015"
         },
         {
-          "project": "cool project",
+          "project": "Secret Project",
           "measurement": 8,
-          "date": "Thu, 09 Jul 2015 23:00:00 GMT"
+          "date": "Tue Jul 07 2015"
         },
         {
-          "project": "cool project",
+          "project": "Secret Project",
           "measurement": 8,
-          "date": "Fri, 10 Jul 2015 23:00:00 GMT"
+          "date": "Wed Jul 08 2015"
         }
       ],
       "billable": 1440
