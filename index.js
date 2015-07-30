@@ -11,6 +11,7 @@ var partials = {
 };
 
 var template = hogan.compile(html);
+var styles = fs.readFileSync(path.join(__dirname, 'styles.css'), { encoding: 'utf8' });
 
 function dateString(date) {
   return (new Date(date)).toDateString();
@@ -23,6 +24,8 @@ function getTemplate(name) {
 module.exports = {
   format: 'html',
   render: function(data) {
+  //styles are splat into a <style> tag
+  data.styles = styles;
   //map data
   data.invoice.date = dateString(data.invoice.date);
   data.invoice.dueDate = dateString(data.invoice.dueDate);
