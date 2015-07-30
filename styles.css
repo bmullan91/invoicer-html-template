@@ -38,10 +38,19 @@ body {
   margin-bottom: 10px;
 }
 
+.service-details h3 {
+  margin-top: 5px;
+}
+
+.service-worked table {
+  font-size: 14px;
+}
+
 @media print {
 
   body {
     background-color: #FFF;
+    padding: 0;
   }
 
   @page {
