@@ -13,7 +13,6 @@ module.exports = {
   "from": {
     "name": "My Company",
     "number": "1234555",
-    "vat": "132435",
     "address": [
       "1 House",
       "Wee Street",

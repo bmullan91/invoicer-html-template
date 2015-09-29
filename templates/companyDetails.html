@@ -2,8 +2,10 @@
   <div class="col-xs-12 col-sm-6">
     <h2>{{name}}</h2>
     <p>
-      Registerd Company Number: {{number}}</br>
-      VAT Number: {{vat}}
+      Registerd Company Number: {{number}}
+      {{#vat}}
+        </br>VAT Number: {{vat}}
+      {{/vat}}
     </p>
     <p>
       {{#address}}
