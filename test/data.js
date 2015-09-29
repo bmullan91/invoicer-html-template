@@ -13,6 +13,7 @@ module.exports = {
   "from": {
     "name": "My Company",
     "number": "1234555",
+    "vat": "132435",
     "address": [
       "1 House",
       "Wee Street",
@@ -38,6 +39,7 @@ module.exports = {
   "to": {
     "name": "Client Company",
     "number": "1234",
+    "vat": "089786",
     "address": [
       "1 Infinite Loop",
       "Cupertino",
